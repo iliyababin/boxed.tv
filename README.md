@@ -10,7 +10,7 @@ Discover new, trending, and upcoming movies. Search from over 500,000 movies and
   </a>.
 </div>
 <a href="https://google.com">
-  <img src="https://github.com/Deluxepter/movie-vision/blob/master/example.gif?raw=true" width="600"/>
+  <img src="https://raw.githubusercontent.com/Deluxepter/movie-vision/master/resources/example.gif" width="600"/>
 </a>
 
 ## Contents
