@@ -40,7 +40,7 @@ export default function MovieStrip(props){
             let test = movies.map(movie => {
                 return movie;
             })
-            const slicedArray = test.slice(0, width/230 > 5 ? 5 : width/230);
+            const slicedArray = test.slice(0, width/220 > 20 ? 20 : width/220);
             setMovieSection(slicedArray);
         }
     }, [movies, width]);

@@ -24,7 +24,7 @@ Discover new, trending, and upcoming movies. Search from over 500,000 movies and
 
 ## Demo
 
-https://vercel.com/login
+https://movie-vision.netlify.app
 
 ## Packages
 | Name                       | Description                                                                            |

@@ -5,3 +5,12 @@
 body {
     background-color: rgb(55 55 55);
 }
+
+:root {
+    color-scheme: dark;
+}
+
+/*https://stackoverflow.com/a/16675080*/
+.div_columns {
+    direction:ltr;
+}
