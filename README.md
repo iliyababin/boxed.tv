@@ -1,13 +1,17 @@
-# 🎬 Movie-Vision
-
+# 🎥 boxed.tv
 <div>
   
-Discover new, trending, and upcoming movies. Search from over 500,000 movies and 25 genres. 
-
+  Discover new, trending, and upcoming movies. Search from over 500,000 movies and 25 genres. 
+  
   Built with React using
-  <a href="https://www.themoviedb.org/?">
+  <a href="https://www.themoviedb.org/">
     <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg" width="130"/>
+  </a>
+  . Watch providers from
+  <a href="https://www.justwatch.com/">
+    <img src="https://i.imgur.com/W8hsEy3.png" width="90"/>
   </a>.
+
 </div>
 <a href="https://google.com">
   <img src="https://raw.githubusercontent.com/Deluxepter/movie-vision/master/resources/example.gif" width="600"/>
@@ -24,7 +28,7 @@ Discover new, trending, and upcoming movies. Search from over 500,000 movies and
 
 ## Demo
 
-https://movie-vision.netlify.app
+https://boxedtv.netlify.app
 
 ## Packages
 | Name                       | Description                                                                            |
