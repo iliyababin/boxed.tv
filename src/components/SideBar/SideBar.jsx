@@ -1,25 +1,23 @@
 import React from "react";
 import SideTile from "../SideTile/SideTile";
-import {useSelector} from "react-redux";
-import {selectSelectedGenres} from "../../redux/reducers/selectedGenresSlice";
 
-export default function SideBar(props){
+export default function SideBar(){
 
     const [genres, setGenres] = React.useState([]);
     React.useEffect(() => {
         setGenres(prevState => {
-            return sampleGenreData.genres.map((genre) => {
+            return sampleGenreData.genres.map((genre, i) => {
                 return <SideTile
                     key={genre.id}
                     genre={genre}
+                    pos={i}
                 />
             });
         })
     },[]);
 
-
     return(
-        <div className="bg-neutral-800 text-neutral-100 p-2 pr-0 h-auto">
+        <div className="bg-neutral-800 text-neutral-100 p-2 pr-0 h-auto drop-shadow-lg">
             <ul className="text-sm cursor-pointer space-y-0.5">
                 {genres}
             </ul>
