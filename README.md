@@ -9,12 +9,12 @@
   </a>
   . Watch providers from
   <a href="https://www.justwatch.com/">
-    <img src="https://i.imgur.com/W8hsEy3.png" width="90"/>
+    <img src="https://raw.githubusercontent.com/Deluxepter/boxed.tv/master/resources/justwatch_logo.png" width="90"/>
   </a>.
 
 </div>
-<a href="https://google.com">
-  <img src="https://raw.githubusercontent.com/Deluxepter/movie-vision/master/resources/example.gif" width="600"/>
+<a href="https://boxedtv.netlify.app/">
+  <img src="https://raw.githubusercontent.com/Deluxepter/boxed.tv/master/resources/example.gif" width="600"/>
 </a>
 
 ## Contents
@@ -47,9 +47,9 @@ https://boxedtv.netlify.app
 Clone the project
 
 ```
-git clone https://github.com/deluxepter/movie-vision.git
+git clone https://github.com/deluxepter/boxed.tv.git
 
-cd movie-vision
+cd boxed.tv
 ```
 
 Install packages
@@ -66,11 +66,9 @@ npm start
 
 ## ToDo
 
-- Display cast in movie modal
 - Mobile support
 - Refine animations
   - Genre selection
-  - MovieStrip scrolling
 - Different themes
 
 ## License
