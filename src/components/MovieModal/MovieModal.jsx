@@ -4,10 +4,11 @@ import {IoMdClose} from "react-icons/io";
 import {TbRotate360} from "react-icons/tb";
 import API from "../../services/API";
 import {useDispatch, useSelector} from "react-redux";
-import {hide, selectMovieId} from "../../redux/reducers/movieModalSlice";
+import {hide, isEnabled, selectMovieId} from "../../redux/reducers/movieModalSlice";
 import {motion, useAnimationControls} from "framer-motion";
 import CastTile from "../CastTile/CastTile";
 import MovieProvider from "../MovieProvider/MovieProvider";
+import {useDetectClickOutside} from "react-detect-click-outside";
 
 export default function MovieModal(){
 
@@ -21,6 +22,7 @@ export default function MovieModal(){
     const [watchProviders, setWatchProviders] = React.useState([]);
 
     const [flipped, setFlipped] = React.useState(false);
+
 
     React.useEffect(() => {
         API.get(`/movie/${movieId}`)
